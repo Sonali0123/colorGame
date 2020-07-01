@@ -44,6 +44,7 @@ function setupSquares(){
 				changeColors(clickedColor);
 				h1.style.background = clickedColor;
 			} else {
+				console.log("hello");
 				this.style.background = "#232323";
 				messageDisplay.textContent = "Try Again"
 			}
